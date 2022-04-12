@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lumen.Training.Libraries.DAL.Interfaces\Lumen.Training.Libraries.DAL.Interfaces.csproj" />
+    <ProjectReference Include="..\Lumen.Training.Libraries.Repos.Interfaces\Lumen.Training.Libraries.Repos.Interfaces.csproj" />
+    <ProjectReference Include="..\Lumen.Training.Libraries.Shared.Models\Lumen.Training.Libraries.Shared.Models.csproj" />
+  </ItemGroup>
+
+</Project>

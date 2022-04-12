@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.DAL.Impl\\Lumen.Training.Libraries.DAL.Impl.csproj": {}
+  },
+  "projects": {
+    "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.DAL.Impl\\Lumen.Training.Libraries.DAL.Impl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.DAL.Impl\\Lumen.Training.Libraries.DAL.Impl.csproj",
+        "projectName": "Lumen.Training.Libraries.DAL.Impl",
+        "projectPath": "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.DAL.Impl\\Lumen.Training.Libraries.DAL.Impl.csproj",
+        "packagesPath": "C:\\Users\\iomeg\\.nuget\\packages\\",
+        "outputPath": "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.DAL.Impl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iomeg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.DAL.Interfaces\\Lumen.Training.Libraries.DAL.Interfaces.csproj": {
+                "projectPath": "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.DAL.Interfaces\\Lumen.Training.Libraries.DAL.Interfaces.csproj"
+              },
+              "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.Shared.Models\\Lumen.Training.Libraries.Shared.Models.csproj": {
+                "projectPath": "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.Shared.Models\\Lumen.Training.Libraries.Shared.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.DAL.Interfaces\\Lumen.Training.Libraries.DAL.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.DAL.Interfaces\\Lumen.Training.Libraries.DAL.Interfaces.csproj",
+        "projectName": "Lumen.Training.Libraries.DAL.Interfaces",
+        "projectPath": "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.DAL.Interfaces\\Lumen.Training.Libraries.DAL.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\iomeg\\.nuget\\packages\\",
+        "outputPath": "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.DAL.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iomeg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.Shared.Models\\Lumen.Training.Libraries.Shared.Models.csproj": {
+                "projectPath": "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.Shared.Models\\Lumen.Training.Libraries.Shared.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.Shared.Models\\Lumen.Training.Libraries.Shared.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.Shared.Models\\Lumen.Training.Libraries.Shared.Models.csproj",
+        "projectName": "Lumen.Training.Libraries.Shared.Models",
+        "projectPath": "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.Shared.Models\\Lumen.Training.Libraries.Shared.Models.csproj",
+        "packagesPath": "C:\\Users\\iomeg\\.nuget\\packages\\",
+        "outputPath": "C:\\0 - DDD Microservices\\D\\CS1\\CalculationsAndOffers\\CalculationsAndOffersSolution\\Lumen.Training.Libraries.Shared.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iomeg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

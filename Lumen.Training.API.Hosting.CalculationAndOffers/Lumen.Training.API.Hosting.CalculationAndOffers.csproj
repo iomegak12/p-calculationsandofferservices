@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>77234fdf-879e-4a5b-bb5c-d58933d09a10</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\**" />
+    <Content Remove="Controllers\**" />
+    <EmbeddedResource Remove="Controllers\**" />
+    <None Remove="Controllers\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="WeatherForecast.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lumen.Training.Libraries.API.Controllers.Impl\Lumen.Training.Libraries.API.Controllers.Impl.csproj" />
+    <ProjectReference Include="..\Lumen.Training.Libraries.API.Controllers.Interfaces\Lumen.Training.Libraries.API.Controllers.Interfaces.csproj" />
+    <ProjectReference Include="..\Lumen.Training.Libraries.Business.Impl\Lumen.Training.Libraries.Business.Impl.csproj" />
+    <ProjectReference Include="..\Lumen.Training.Libraries.Business.Interfaces\Lumen.Training.Libraries.Business.Interfaces.csproj" />
+    <ProjectReference Include="..\Lumen.Training.Libraries.Business.Validations.Impl\Lumen.Training.Libraries.Business.Validations.Impl.csproj" />
+    <ProjectReference Include="..\Lumen.Training.Libraries.DAL.Impl\Lumen.Training.Libraries.DAL.Impl.csproj" />
+    <ProjectReference Include="..\Lumen.Training.Libraries.DAL.Interfaces\Lumen.Training.Libraries.DAL.Interfaces.csproj" />
+    <ProjectReference Include="..\Lumen.Training.Libraries.Repos.Impl\Lumen.Training.Libraries.Repos.Impl.csproj" />
+    <ProjectReference Include="..\Lumen.Training.Libraries.Repos.Interfaces\Lumen.Training.Libraries.Repos.Interfaces.csproj" />
+    <ProjectReference Include="..\Lumen.Training.Libraries.Shared.Models\Lumen.Training.Libraries.Shared.Models.csproj" />
+  </ItemGroup>
+
+</Project>

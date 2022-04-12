@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Lumen.Training.Libraries.Business.Interfaces/1.0.0": {
+        "dependencies": {
+          "Lumen.Training.Libraries.Shared.Models": "1.0.0"
+        },
+        "runtime": {
+          "Lumen.Training.Libraries.Business.Interfaces.dll": {}
+        }
+      },
+      "Lumen.Training.Libraries.Shared.Models/1.0.0": {
+        "runtime": {
+          "Lumen.Training.Libraries.Shared.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lumen.Training.Libraries.Business.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lumen.Training.Libraries.Shared.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.7" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.7" />
+    <PackageReference Include="coverlet.collector" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lumen.Training.Libraries.DAL.Impl\Lumen.Training.Libraries.DAL.Impl.csproj" />
+    <ProjectReference Include="..\Lumen.Training.Libraries.DAL.Interfaces\Lumen.Training.Libraries.DAL.Interfaces.csproj" />
+    <ProjectReference Include="..\Lumen.Training.Libraries.DAL.Tests\Lumen.Training.Libraries.DAL.Tests.csproj" />
+    <ProjectReference Include="..\Lumen.Training.Libraries.Repos.Impl\Lumen.Training.Libraries.Repos.Impl.csproj" />
+    <ProjectReference Include="..\Lumen.Training.Libraries.Repos.Interfaces\Lumen.Training.Libraries.Repos.Interfaces.csproj" />
+    <ProjectReference Include="..\Lumen.Training.Libraries.Shared.Models\Lumen.Training.Libraries.Shared.Models.csproj" />
+  </ItemGroup>
+
+</Project>
